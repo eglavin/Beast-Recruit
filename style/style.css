@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#header { 
+	background: url(../imgs/navbar.gif) repeat-x; 
+	position: fixed; 
+	width: 100%; 
+	height: 93px; 
+	top: 0; 
+	left: 0;
+	z-index: 999;
+}
+
+#logo { 
+	background: url(../imgs/logo.png) no-repeat left center; 
+	float: left; 
+	padding: 5px; 
+	margin-left: 20px; 
+	width: 300px; 
+	height: 78px; 
+}
+
+#minWidth{
+	min-width:1020px;
+}
+
+#content { 
+	margin: 0 auto; 
+	width: 1000px; 
+}
+
+#content { 
+	text-align: center; 
+	font-family: "Arial"; 
+	font-size: 14px; 
+	color: #CCC; 
+}
+
+#content a:link { 
+	color: #fff;
+	text-decoration: none; 
+}
+#content a:visited {
+	color: #59a1cd;
+	text-decoration: underline;
+}
+#content a:hover {
+	color: #59a1cd;
+	text-decoration: underline;
+}
+
+#main { 
+	background: url(../imgs/wrapperbackground.png); 
+	background-repeat: repeat; 
+	float: left; 
+	width: 700px; 
+	padding: 30px; 
+	padding-top: 90px; 
+	padding-bottom: 10px; 
+}
+#mainJustified { 
+	text-align: justify; 
+}
+
+#secondary { 
+	background: url(../imgs/wrapperbackground.png); 
+	background-repeat: repeat; 
+	float: right; 
+	width: 240px; 
+	padding-top: 100px; 
+	margin-top: 0px;
+}
+
+#footer {
+	background: url(../imgs/wrapperbackground.png);
+	background-repeat: repeat;
+	float: left; 
+	width: 740px;
+	padding: 10px;
+	padding-bottom: 15px;
+	font-size: 10px;
+	font-style: italic;
+}
+
+
+/* Style */
+#title {
+	text-align: center;
+	font-family: "Arial";
+	font-size: 24px;
+	margin-bottom: -5px;
+	margin-top: 10px;
+}
+#post {
+	text-align:justify;
+	text-justify:inter-word;
+}
+/* END Stlye */
+
+/* Label */
+#label {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 80%;
+}
+#label th {
+	width: 30%;
+}
+#label td {
+	width: 50%;
+}
+/* End Label */
+
+/* CollapsiblePanel */
+.CollapsiblePanelTab {
+	text-align: center;
+	font-family: bold "Arial";
+	font-size: 18px;
+	background-color: #DDD;
+	color: #333333;
+	margin: 0px;
+	padding: 2px;
+	cursor: pointer;
+	width: 700px;
+}
+.CollapsiblePanelContent {
+	text-align: center;
+	font-family: "Arial";
+	font-size: 14px;
+	color: #CCC;
+	width: 700px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top:2px;
+}
+/* END CollapsiblePanel */
+
+/* navbar */
+#navbar {
+	float: right;
+	padding-right: 20px;
+	padding-top: 25px;
+}
+ul.navbar {
+	padding-left: 8px;
+	list-style: none;
+	margin: 0;
+}
+ul.navbar li {
+	text-align: center;
+	width: 4.5em;
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+ul.navbar a {
+	display: block;
+	background: url(../imgs/sprybar.png);
+	padding: 0.5em 0.4em;
+	color: #fff;
+	text-decoration: none;
+	font-family:"Arial";
+	font-size: 16px;
+}
+ul.navbar a.MenuBarItemHover, ul.navbar a.MenuBarItemSubmenuHover, ul.navbar a.MenuBarSubmenuVisible {
+	background: url(../imgs/sprybarh.png);
+	color: #ddd;
+}
+/* END navbar */
+
+/* Table */
+table.setup {
+	width: 80%;
+	font-size: 15px;
+}
+table.setup td {
+	width: 60%;
+	height: 24px;
+	padding: 0px;
+}
+table.setup th {
+	width: 40%;
+	height: 24px;
+	padding: 0px;
+}
+
+table.setupCentre {
+	width: 100%;
+	font-size: 15px;
+}
+table.setupCentre td {
+	width: 50%;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+table.setupCentre th {
+	font-weight: normal;
+	padding-top: 5px;
+}
+/* END Table */
+
+/* COG */
+#headercog {
+	background: url(../ChamberOfGamers/imgs/navbar.png) repeat-x;
+	position: fixed;
+	width: 100%;
+	height: 93px;
+	top: 0;
+	left: 0;
+}
+#logocog {	
+	display: inline-block;
+	background: url(../ChamberOfGamers/imgs/cogLogo.png) no-repeat left center;
+	float: left;
+	padding: 5px;
+	margin-left: 20px;
+	width: 546px;
+	height: 78px;
+}
+#maincog {
+	float: left;
+	width: 720px;
+	background: url(../imgs/wrapperbackground.png);
+	background-repeat: repeat;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin-top: 70px;
+	text-align: center;
+	font-family:"Arial";
+	font-size: 14px;
+	color: #CCC;
+}
+#maincog a, #maincog a:link {
+	color: #FFF;
+}
+#maincog a:visited, #maincog a:hover {
+	color: #d15656;
+	text-decoration: underline;
+}
+table.cogtable {
+	margin: 0 auto;
+	width: 600px;
+}
+table.cogtable th {
+	width: 25%;
+}
+table.cogtable td  {
+	text-align: left;
+	vertical-align:top;
+	padding:10px;
+	width: 75%;
+}
+/* END COG */
+
